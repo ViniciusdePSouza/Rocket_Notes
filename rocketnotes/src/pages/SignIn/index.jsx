@@ -1,6 +1,7 @@
 
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
+import { Link } from 'react-router-dom'
 
 import { FiMail} from 'react-icons/fi'
 
@@ -27,9 +28,9 @@ export function SignIn() {
 
 
                 <Button type="submit" title="Login"/>
-                <a href="#">
+                <Link to ="/register">
                     Create Account
-                </a>
+                </Link>
             </Form>
 
             <BackgroundImg/>

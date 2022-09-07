@@ -6,6 +6,7 @@ import { TextArea } from '../../components/TextArea'
 import { NoteItem } from '../../components/NoteItem'
 import { Section } from '../../components/Section'
 import { Button } from '../../components/Button'
+import { Link } from 'react-router-dom'
 
 export function NewNote() {
     return (
@@ -17,7 +18,7 @@ export function NewNote() {
                     <header>
                         <h1>New Note</h1>
 
-                        <a href="/">Back</a>
+                        <Link to="/">Back</Link>
                     </header>
 
                     <Input

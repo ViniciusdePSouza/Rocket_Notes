@@ -1,6 +1,7 @@
 
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
+import { Link } from 'react-router-dom'
 
 import { FiMail, FiUser, FiLock} from 'react-icons/fi'
 
@@ -36,9 +37,9 @@ export function SignUp() {
 
 
                 <Button type="submit" title="Register" />
-                <a href="#">
+                <Link to="/">
                     Back to login 
-                </a>
+                </Link>
             </Form>
 
         </Container>
